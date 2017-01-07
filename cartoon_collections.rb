@@ -17,5 +17,5 @@ end
 
 def find_the_cheese(snack)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snack.find { |i| i.include?("cheddar")}
+  snack.find { |i| cheese_types.include?(i)}
 end

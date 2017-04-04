@@ -3,11 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer)
-  new_arr =[]
-  last = new_arr.pop
-  new_arr << planeteer.map(&:capitalize)
-  (new_arr.join("! ") + last.to_s + "!").split
-  
+  planeteer.map {|e| e.capitalize + "!"}
   
 end
 

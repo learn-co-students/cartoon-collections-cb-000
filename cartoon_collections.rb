@@ -1,10 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+require "pry"
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index { |value, index| puts "#{index + 1}.#{value}" }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-end
+git 
 
 def long_planeteer_calls# code an argument here
   # Your code here

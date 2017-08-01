@@ -3,7 +3,12 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index { |value, index| puts "#{index + 1}.#{value}" }
 end
 
-git 
+def summon_captain_planet(array)
+  array.each do |x|
+      x.capitalize!
+      puts x + "!"
+  end
+end
 
 def long_planeteer_calls# code an argument here
   # Your code here

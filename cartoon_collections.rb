@@ -18,9 +18,12 @@ def summon_captain_planet(calls)
   end
 end
 
-
-def long_planeteer_calls# code an argument here
-  # Your code here
+# Accept an array of calls
+# Return true or false if any of the calls are longer than 4 characters
+def long_planeteer_calls(calls)
+  calls.any? do |call|
+    call.length > 4
+  end
 end
 
 

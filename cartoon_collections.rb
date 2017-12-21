@@ -6,7 +6,7 @@ roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 # => 1. Doc\n2. Dopey\n3. Bashful\n4. Grumpy
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|planeteer| "#{planeteer.capitalize}!"}
+  planeteer_calls.map {|planeteer| planeteer.capitalize << '!'}
 end
 summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
 # => ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]

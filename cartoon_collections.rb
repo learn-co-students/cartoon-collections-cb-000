@@ -8,7 +8,7 @@ def summon_captain_planet(elements)# code an argument here
   # Your code here
   elements.collect {|element|
       element[0] = element[0].upcase
-      element = element + "!"
+      element << "!"
   }
 end
 

@@ -23,6 +23,7 @@ def find_the_cheese(array)
   array.each do |ingredient|
     return ingredient if cheese_types.include?(ingredient)
   end
+  return nil
 end
 
 # binding.pry
